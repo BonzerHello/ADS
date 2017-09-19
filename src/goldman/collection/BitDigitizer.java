@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection;
+package goldman.collection;
 
 /**
  * The BitDigitizer class implements the <code>Digitizer</code> interface

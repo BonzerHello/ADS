@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.tagged.spatial;
+package goldman.collection.tagged.spatial;
 import goldman.collection.Collection;
 import goldman.collection.tagged.TaggedCollection;
 import goldman.collection.tagged.TaggedElement;

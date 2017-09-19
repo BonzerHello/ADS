@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.tagged;
+package goldman.collection.tagged;
 /**
  * Each element and its associated tag is
  * stored in a tagged collection as a

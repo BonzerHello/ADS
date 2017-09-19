@@ -8,7 +8,7 @@
  * the tags
 **/
 
-package CodeFromBook.goldman.collection.tagged.ordered.digitized;
+package goldman.collection.tagged.ordered.digitized;
 
 import goldman.collection.Digitizer;
 import goldman.collection.ordered.digitized.Trie;

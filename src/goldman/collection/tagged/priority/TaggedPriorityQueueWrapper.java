@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.tagged.priority;
+package goldman.collection.tagged.priority;
 import java.util.Comparator;
 import java.util.Iterator;
 

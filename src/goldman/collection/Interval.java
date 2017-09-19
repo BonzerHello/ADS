@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection;
+package goldman.collection;
 /**
  * The <code>Interval</code> interface provides a way for an application program to provide
  * a minimum and maximum element when it is known.

@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman;
+package goldman;
 import java.util.Comparator;
 /**
  * The Objects abstract class holds a variety of utilities to support

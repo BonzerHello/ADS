@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.spatial;
+package goldman.collection.spatial;
 /**
  * This interface is used in conjunction with the DefaultXYComparator to define
  * the default comparator used to

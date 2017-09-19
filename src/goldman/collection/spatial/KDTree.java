@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.spatial;
+package goldman.collection.spatial;
 import goldman.collection.AbstractCollection;
 import java.util.Comparator;
 import java.util.NoSuchElementException;

@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.ordered;
+package goldman.collection.ordered;
 import java.util.Iterator;
 
 import goldman.collection.ordered.TreeNode;

@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.tagged;
+package goldman.collection.tagged;
 import java.util.Comparator;
 /**
  * We compare tagged elements by wrapping a provided

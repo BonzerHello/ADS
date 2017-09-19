@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.tagged;
+package goldman.collection.tagged;
 import goldman.collection.Locator;
 /**
  * Similar to the <code>Tagged</code> interface, the <code>TrackedTagged</code> interface

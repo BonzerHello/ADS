@@ -7,7 +7,7 @@
  * each of the d orderings.
 **/
 
-package CodeFromBook.goldman.collection.tagged.spatial;
+package goldman.collection.tagged.spatial;
 import goldman.collection.spatial.KDTree;
 import goldman.collection.tagged.TaggedElement;
 import goldman.collection.tagged.TaggedElementComparator;

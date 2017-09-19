@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.positional;
+package goldman.collection.positional;
 import goldman.collection.AtCapacityException;
 import goldman.collection.Locator;
 /**

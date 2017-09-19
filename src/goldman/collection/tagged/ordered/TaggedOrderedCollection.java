@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.tagged.ordered;
+package goldman.collection.tagged.ordered;
 import goldman.collection.Locator;
 import goldman.collection.tagged.TaggedCollection;
 import goldman.collection.tagged.TaggedElement;

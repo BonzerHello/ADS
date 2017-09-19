@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.graph;
+package goldman.graph;
 
 /**
  * The <code>DisconnectedGraphException</code> is thrown when a graph algorithm that

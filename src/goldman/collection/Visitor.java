@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection;
+package goldman.collection;
 /**
  * Unlike iterators that support external iteration of the internal structure
  * of the collection, a visitor can avoid these disadvantages by

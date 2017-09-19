@@ -4,7 +4,7 @@
 // Use subject to license agreement.
 
 
-package CodeFromBook.goldman.collection;
+package goldman.collection;
 import goldman.collection.Locator;
 /**
  * The <code>Tracked</code> interface adds a single method to

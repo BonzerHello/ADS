@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection;
+package goldman.collection;
 import java.math.BigInteger;
 /**
  * The IndexedNumber class illustrates a way to provide access to the

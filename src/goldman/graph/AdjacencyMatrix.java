@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.graph;
+package goldman.graph;
 /**
  * The AdjacencyMatrix class provides an implementation for the adjacency
  * matrix representation of a graph.  This class

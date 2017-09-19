@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.ordered.digitized;
+package goldman.collection.ordered.digitized;
 /**
  * The AbstractTrieLeafNode class implements methods that can be shared by all
  * implementations of a trie leaf node.

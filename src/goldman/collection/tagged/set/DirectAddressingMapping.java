@@ -7,7 +7,7 @@
  * @param capacity the desired capacity
 **/
 
-package CodeFromBook.goldman.collection.tagged.set;
+package goldman.collection.tagged.set;
 import goldman.collection.set.DirectAddressing;
 import goldman.collection.tagged.TaggedElement;
 import goldman.collection.tagged.TaggedCollectionWrapper;

@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.graph;
+package goldman.graph;
 /**
  * The AdjacencyList class provides an implementation for the adjacency
  * list representation of a graph.  This class

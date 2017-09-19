@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection;
+package goldman.collection;
 /**
  * The StringDigitizer class is an implementation of the
  * <code>Digitizer</code> interface for a string composed of only the 26 lower

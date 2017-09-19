@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.tagged.bucket;
+package goldman.collection.tagged.bucket;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 

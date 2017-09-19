@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.ordered.digitized;
+package goldman.collection.ordered.digitized;
 import goldman.collection.*;
 /**
  * The compressed trie performs additional compression

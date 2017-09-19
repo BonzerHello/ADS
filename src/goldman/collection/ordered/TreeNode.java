@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.ordered;
+package goldman.collection.ordered;
 
 /**
  * The <code>TreeNode</code> interface must be supported by any

@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection;
+package goldman.collection;
 import java.util.Comparator;
 /**
  * The <code>Bucketizer</code> interface provides an application with a

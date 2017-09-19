@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.positional;
+package goldman.collection.positional;
 /**
  * The doubly linked list is the only positional collection data structure
  * that provides amortized constant time methods for all of the

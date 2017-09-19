@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman;
+package goldman;
 import goldman.collection.positional.Stack;
 /**
  * The abstract Pool class provides a way to reuse object to reduce

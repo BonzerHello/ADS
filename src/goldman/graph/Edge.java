@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.graph;
+package goldman.graph;
 /**
  * The <code>Edge</code> interface is used for an unweighted edge.
 **/

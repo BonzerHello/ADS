@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.spatial;
+package goldman.collection.spatial;
 /**
  * The DefaultXYComparator class provides an implementation of
  * the <code>XYComparator</code> interface that simply uses the x and y coordinates.

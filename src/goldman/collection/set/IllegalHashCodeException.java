@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.set;
+package goldman.collection.set;
 /**
  * The <code>IllegalHashCodeException</code> is thrown when an attempt is made
  * to use a hash code that is not between 0 and m-1 where m is the size of

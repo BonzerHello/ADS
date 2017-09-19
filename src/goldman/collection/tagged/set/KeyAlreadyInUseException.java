@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.tagged.set;
+package goldman.collection.tagged.set;
 
 /**
  * The <code>KeyAlreadyInUseException</code> is thrown by a set data structure

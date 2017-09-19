@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.graph;
+package goldman.graph;
 /**
  * The WeightedAdjacencyList class provides an implementation for
  * a weighted adjacency list.

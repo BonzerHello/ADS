@@ -12,7 +12,7 @@
  * @throws IllegalArgumentException <code>capacity</code> &lt; 0 or <code>load</code> &ge; 1.0
 **/
 
-package CodeFromBook.goldman.collection.tagged.set;
+package goldman.collection.tagged.set;
 import java.util.Comparator;
 import goldman.collection.AbstractCollection;
 import goldman.Objects;

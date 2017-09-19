@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.ordered.digitized;
+package goldman.collection.ordered.digitized;
 /**
  * The <code>CompressedTrieNode</code> interface must be supported by any
  * class defining objects to be used as nodes in a compressed trie.

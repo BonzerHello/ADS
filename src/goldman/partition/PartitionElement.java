@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.partition;
+package goldman.partition;
 /**
  * A partition
  * is a division of a group of objects into disjoint sets that we call components.

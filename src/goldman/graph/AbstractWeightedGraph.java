@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.graph;
+package goldman.graph;
 import goldman.collection.positional.DynamicArray;
 import goldman.collection.positional.Queue;
 import goldman.collection.priority.PriorityQueueLocator;

@@ -7,7 +7,7 @@
  * defines the two orderings among the tags
 **/
 
-package CodeFromBook.goldman.collection.tagged.spatial;
+package goldman.collection.tagged.spatial;
 import goldman.collection.spatial.DefaultXYComparator;
 import goldman.collection.spatial.QuadTree;
 import goldman.collection.spatial.XYComparator;

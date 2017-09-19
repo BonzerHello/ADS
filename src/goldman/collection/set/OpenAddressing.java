@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.set;
+package goldman.collection.set;
 import java.util.Comparator;
 import static goldman.Objects.*;
 /**

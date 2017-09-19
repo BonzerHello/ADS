@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection;
+package goldman.collection;
 /**
  * The <code>Quantizer</code> interface allows an application program to provide
  * a mechanism to convert an element <code>x</code> in the collection to a

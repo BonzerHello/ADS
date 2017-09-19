@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.tagged;
+package goldman.collection.tagged;
 /**
  * The MutableTaggedElement class is an extension of the
  * TaggedElement class that allows the tag to be modified.

@@ -7,7 +7,7 @@
  * defines the ordering among the tags
 **/
 
-package CodeFromBook.goldman.collection.tagged.ordered;
+package goldman.collection.tagged.ordered;
 import java.util.Comparator;
 
 import goldman.Objects;

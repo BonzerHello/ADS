@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.partition;
+package goldman.partition;
 /**
  * The UnionFindNode class provides an implementation of
  * the PartitionElement ADT using the union-find data structure.

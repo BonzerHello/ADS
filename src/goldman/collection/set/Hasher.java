@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.set;
+package goldman.collection.set;
 /**
  * The <code>Hasher</code> interface provides the application program the
  * flexibility to specify how the hash codes are to be computed over the elements of

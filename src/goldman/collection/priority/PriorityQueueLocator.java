@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.priority;
+package goldman.collection.priority;
 import goldman.collection.Locator;
 /**
  * The <code>PriorityQueueLocator</code> interface

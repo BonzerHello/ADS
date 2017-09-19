@@ -3,7 +3,7 @@
 // Unauthorized distribution of this source code is prohibited.
 // Use subject to license agreement.
 
-package CodeFromBook.goldman.collection.spatial;
+package goldman.collection.spatial;
 import java.util.NoSuchElementException;
 import goldman.collection.Collection;
 import goldman.collection.ordered.*;

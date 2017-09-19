@@ -9,7 +9,7 @@
  * whether or not a track implementation is desired.
 **/
 
-package CodeFromBook.goldman.collection.tagged.priority;
+package goldman.collection.tagged.priority;
 import java.util.Comparator;
 import goldman.Objects;
 import goldman.collection.priority.BinaryHeap;
