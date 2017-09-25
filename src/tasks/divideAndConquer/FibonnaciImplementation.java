@@ -2,11 +2,12 @@ package tasks.divideAndConquer;
 
 import java.util.Vector;
 
-public class DivideAndConquerableImplementation implements DivideAndConquerable<Integer> {
+public class FibonnaciImplementation implements DivideAndConquerable<Integer> {
 
     int number;
+    Vector resList;
 
-    DivideAndConquerableImplementation(int number){
+    FibonnaciImplementation(int number){
         this.number = number;
     }
 
@@ -25,18 +26,22 @@ public class DivideAndConquerableImplementation implements DivideAndConquerable<
 
     @Override
     public Vector<DivideAndConquerable<Integer>> decompose() {
-        //AUseinandernehmen und neue Instanzen hinzufügen
+        //Auseinandernehmen und neue Instanzen hinzufügen
         Vector<DivideAndConquerable<Integer>> vectorList = new Vector<DivideAndConquerable<Integer>>();
-        vectorList.add(new DivideAndConquerableImplementation(number-1));
-        vectorList.add(new DivideAndConquerableImplementation(number -2));
+        vectorList.add(new FibonnaciImplementation(number-1));
+        vectorList.add(new FibonnaciImplementation(number -2));
         return vectorList;
     }
 
     @Override
     public Integer recompose(Vector intermediateresults) {
         int res = 0;
+        resList = intermediateresults;
         for (Object intermediateresult : intermediateresults) {
-            res += (int) intermediateresult;
+            if(intermediateresult instanceof Integer){
+                res += (int) intermediateresult;
+                System.out.println("Elem: "+intermediateresult);
+            }
         }
         return res;
     }
@@ -45,8 +50,9 @@ public class DivideAndConquerableImplementation implements DivideAndConquerable<
 
 
     public static void main(String[] args){
-        DivideAndConquerableImplementation dc = new DivideAndConquerableImplementation(5);
+        FibonnaciImplementation dc = new FibonnaciImplementation(20);
         int res = dc.divideAndConquer();
         System.out.println("RES: "+res);
+        System.out.println("ResList: "+dc.resList);
     }
 }
