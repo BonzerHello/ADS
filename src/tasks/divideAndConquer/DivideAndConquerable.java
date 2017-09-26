@@ -17,8 +17,10 @@ public interface DivideAndConquerable <OutputType> {
         Vector<DivideAndConquerable<OutputType>> subcomponents = decompose();
         Vector<OutputType> intermediateresults = new Vector<OutputType>(
                         subcomponents.size());
-        subcomponents.parallelStream().forEach(
+        //subcomponents.parallelStream().forEach(
+                subcomponents.forEach(
                 subcomponent -> intermediateresults.add(
+
                         subcomponent.divideAndConquer())
         );
         return recompose(intermediateresults);

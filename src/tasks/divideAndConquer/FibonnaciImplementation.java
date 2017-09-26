@@ -50,7 +50,7 @@ public class FibonnaciImplementation implements DivideAndConquerable<Integer> {
 
 
     public static void main(String[] args){
-        FibonnaciImplementation dc = new FibonnaciImplementation(20);
+        FibonnaciImplementation dc = new FibonnaciImplementation(5);
         int res = dc.divideAndConquer();
         System.out.println("RES: "+res);
         System.out.println("ResList: "+dc.resList);
