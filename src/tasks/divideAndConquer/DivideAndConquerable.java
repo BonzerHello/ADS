@@ -23,6 +23,9 @@ public interface DivideAndConquerable <OutputType> {
 
                         subcomponent.divideAndConquer())
         );
-        return recompose(intermediateresults);
+                OutputType outputType = recompose(intermediateresults);
+
+
+        return outputType;
     }
 }
