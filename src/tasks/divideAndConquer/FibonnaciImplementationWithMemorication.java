@@ -15,7 +15,13 @@ public class FibonnaciImplementationWithMemorication implements DivideAndConquer
         memMap = new HashMap<Integer,Integer>();
     }
 
+    public int getNumber() {
+        return number;
+    }
 
+    public void setNumber(int number) {
+        this.number = number;
+    }
 
     @Override
     public boolean isBase() {
