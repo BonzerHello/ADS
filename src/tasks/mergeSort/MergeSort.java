@@ -1,5 +1,6 @@
 package tasks.mergeSort;
 
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Vector;
 
@@ -33,7 +34,7 @@ public class MergeSort implements DivideAndConquerable{
     @Override
     public boolean isBase() {
         //Basisfall ist, wenn der Array die grösse 1 hat
-        if(data.length == 1){
+        if(left == right){
             return true;
         }
         return false;
@@ -48,12 +49,7 @@ public class MergeSort implements DivideAndConquerable{
     @Override
     public Vector<DivideAndConquerable> decompose() {
         //input wird halbiert -> Rückgabe wert linke und rechte hälfte: Liste von zwei Komponenten (links und rechts)
-        int mid = (left + right)/2;
-        int i = left;
-        int j = mid+1;
-        int k = left;
-        System.arraycopy(data,i,aux,k,mid-i+1);
-        System.arraycopy(aux,left,data,left,j-left);
+        int mid = (left + right) / 2; // find the middle
         Vector<DivideAndConquerable> vectorList = new Vector<>();
         vectorList.add(new MergeSort(data,aux,left,mid));
         vectorList.add(new MergeSort(data,aux,mid+1,right));
@@ -74,15 +70,18 @@ public class MergeSort implements DivideAndConquerable{
                 aux[k++] = data[j++];
             }
         }
+        System.arraycopy(data,i,aux,k,mid-i+1);
+        System.arraycopy(aux,left,data,left,j-left);
         return aux;
     }
 
 
     public static void main(String[] args){
-        int[] numbers = new int[]{4,6,2,3};
-        int[] aux = new int[0];
+        int[] numbers = new int[]{4,6,2,3,23,4,34,0,343,23,546,7};
+        int[] aux = new int[numbers.length];
         MergeSort m = new MergeSort(numbers,aux);
-        Object res = m.divideAndConquer();
-        System.out.println("RES: "+res);
+        int[] res = (int[])m.divideAndConquer();
+
+        System.out.println("RES: "+ Arrays.toString(res));
     }
 }
