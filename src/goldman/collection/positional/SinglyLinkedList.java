@@ -556,7 +556,7 @@ public class SinglyLinkedList<E> extends AbstractPositionalCollection<E> impleme
 				while (ptr != loc && comp.compare((E) ptr.next.data, (E) loc.next.data) <= 0)
 					ptr = ptr.next;   //if ptr.next.data <= loc.next.data, need to move forward
 				if (ptr != loc) {     //loc.next needs to be moved after ptr
-					if (loc.next == getLast())    788//preserves Last
+					if (loc.next == getLast());    //preserves Last
 						setLast(loc);          //after moving loc.next, loc is last
 					loc.moveNextAfter(ptr);	 //move loc.next into place
 				}
